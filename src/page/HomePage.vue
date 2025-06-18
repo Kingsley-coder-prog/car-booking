@@ -1,9 +1,9 @@
 <template>
-  <h1 class="text-red-500">Home Page</h1>
+  <HeroSection />
 </template>
 
-<script>
-export default {};
+<script setup>
+import HeroSection from "../components/homePage/HeroSection.vue";
 </script>
 
 <style>
