@@ -55,7 +55,7 @@ const router = createRouter({
   history: createWebHistory(),
   routes,
   scrollBehavior() {
-    return { top: 0 };
+    return { top: 0 }; // Scroll to top on navigation
   },
 });
 export default router;
